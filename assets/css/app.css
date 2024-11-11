@@ -722,52 +722,51 @@ h1, h2, h3, h4, h5 {
     color: #4b5563;
 }
 
-.service-section {
+.blog-section {
     margin: 0 auto;
     max-width: 80rem;
 }
 
-.service-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.service-grid {
+.blog-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
-.service-item {
+.blog-item {
     background-color: #fff;
-    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease;
 }
 
-.service-item img {
-    width: 60px;
-    margin-bottom: 1rem
+.blog-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-.service-item h3 {
-    font-size: 1.5rem;
+.blog-item:hover {
+    transform: scale(1.05);
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    font-size: 1.4em;
     color: #333;
-    margin-top: 1rem!important;
-    margin-bottom: .75rem!important;
+    margin-bottom: 10px;
 }
 
-.service-item div {
+.blog-content p {
+    font-size: .9em;
     color: #666;
-    font-size: 1em;
-}
-
-.service-icon {
-    width: 2rem;
-    height: 2rem;
+    line-height: 1.6;
 }
 
 
