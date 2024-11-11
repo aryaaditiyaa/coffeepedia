@@ -789,6 +789,19 @@ h1, h2, h3, h4, h5 {
     border-radius: 1rem;
 }
 
+.gallery-audio {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-audio audio {
+    width: 100%;
+}
+
+
 
 
 
